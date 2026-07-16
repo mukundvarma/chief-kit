@@ -23,6 +23,7 @@ This repo is a reusable kit for setting the system up for yourself. There are tw
 - `plugin/` — the same system packaged as an installable Cowork plugin (setup, refresh-meetings, and morning-brief skills).
 - `.claude-plugin/marketplace.json` — marketplace manifest so others can install the plugin from this repo.
 - `LICENSE` — MIT.
+- `PRIVACY.md` — privacy policy (the plugin collects nothing; all data stays in your own storage).
 
 ## Prerequisites
 
