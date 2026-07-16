@@ -2,7 +2,7 @@
 
 Chief is a single-interface, low-maintenance command center where Claude acts as your chief of staff. You talk to Claude; Claude maintains the files. Everything is plain Markdown living in your own storage, viewed in Obsidian on Mac and iPhone. No hosted account, no lock-in, works offline, and you do near-zero project-management upkeep.
 
-This repo is a reusable kit for setting the system up for yourself. It contains the install flow, the design rationale, blank templates, and the optional calendar-sync spec.
+This repo is a reusable kit for setting the system up for yourself. There are two ways to use it: install the **plugin** and let Claude drive the whole setup, or read the flow and templates yourself and point Claude at them. Both build the same system.
 
 ## What's in the box
 
@@ -18,6 +18,8 @@ This repo is a reusable kit for setting the system up for yourself. It contains 
 - `refresh-meetings.md` — spec for the optional daily 6am calendar sync.
 - `morning-brief.md` — spec for the optional daily digest (today's meetings + priority tasks).
 - `CUSTOMIZATION.md` — ways to set things up differently (sync, calendar, meetings, briefings).
+- `plugin/` — the same system packaged as an installable Cowork plugin (setup, refresh-meetings, and morning-brief skills).
+- `.claude-plugin/marketplace.json` — marketplace manifest so others can install the plugin from this repo.
 - `LICENSE` — MIT.
 
 ## Prerequisites
@@ -28,10 +30,22 @@ This repo is a reusable kit for setting the system up for yourself. It contains 
 
 ## Setup
 
+### Option A — Install the plugin (recommended)
+
+```
+/plugin marketplace add mukundvarma/chief-kit
+/plugin install chief-kit@chief-kit
+```
+
+Then tell Claude *"set up chief"* and answer the setup questions. Claude stamps the files into a `chief/` folder in your Obsidian vault and can create the optional daily automations.
+
+### Option B — Drive it from the files
+
 1. Clone or download this repo somewhere Claude can reach it.
 2. Open a Cowork chat and tell Claude: *"Set up the Chief system for me — follow STARTUP.md in this folder."*
 3. Answer the setup questions (identity, categories, whether to track meetings). Claude copies the templates into a `chief/` folder in your Obsidian vault, substituting your values.
-4. Open the vault in Obsidian on Mac and iPhone, enable the Kanban and Dataview plugins, and you're running.
+
+After either option, open the vault in Obsidian on Mac and iPhone, enable the Kanban and Dataview plugins, and you're running.
 
 ## Design rules (don't break these)
 
