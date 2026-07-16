@@ -2,6 +2,8 @@
 
 Chief is a single-interface, low-maintenance command center where Claude acts as your chief of staff. You talk to Claude; Claude maintains the files. Everything is plain Markdown living in your own storage, viewed in Obsidian on Mac and iPhone. No hosted account, no lock-in, works offline, and you do near-zero project-management upkeep.
 
+The appeal is in what it does not ask of you. Your tasks, meetings, and notes are plain Markdown files that live in your own iCloud, so the whole system is self-hosted and syncs to every Apple device without a server to run or a database to trust. If you already use Obsidian, there is nothing new to buy and nothing new to learn: no SaaS subscription, no extra account, no second app competing for your attention. The layout is deliberately simple, a couple of Kanban boards and a working-memory file, and every piece is yours to reshape, so the categories, columns, and automations bend to how you actually work rather than forcing you into someone else's template. Best of all, the same files are editable two ways at once: ask Claude to add a task or reschedule a meeting and it updates the Markdown for you, or open Obsidian on your Mac or phone and edit by hand. Nothing is locked behind an interface, and the two paths never fall out of sync because they touch the same plain files.
+
 This repo is a reusable kit for setting the system up for yourself. There are two ways to use it: install the **plugin** and let Claude drive the whole setup, or read the flow and templates yourself and point Claude at them. Both build the same system.
 
 ## What's in the box
