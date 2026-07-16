@@ -17,6 +17,7 @@ This repo is a reusable kit for setting the system up for yourself. It contains 
   - `memory/` — deeper knowledge base scaffold (`glossary.md`, `context/company.md`).
 - `refresh-meetings.md` — spec for the optional daily 6am calendar sync.
 - `morning-brief.md` — spec for the optional daily digest (today's meetings + priority tasks).
+- `CUSTOMIZATION.md` — ways to set things up differently (sync, calendar, meetings, briefings).
 - `LICENSE` — MIT.
 
 ## Prerequisites
