@@ -22,7 +22,7 @@ This repo is a reusable kit for setting the system up for yourself. It contains 
 
 ## Prerequisites
 
-- **Obsidian**, with two community plugins enabled: **Kanban** (renders the boards) and **Dataview** (renders the priorities view). Settings > Community plugins.
+- **Obsidian**, with two community plugins enabled: **Kanban** (renders the boards) and **Dataview** (renders the priorities view). Settings > Community plugins > Browse. Optional: **Obsidian Git** (backup/versioning) or **Obsidian Sync** (cross-device without iCloud).
 - **Claude in Cowork mode** — the setup flow uses Claude to stamp out and maintain your files.
 - **Optional:** a calendar connector (Google Calendar or Microsoft 365, read-only) if you want meeting tracking.
 
