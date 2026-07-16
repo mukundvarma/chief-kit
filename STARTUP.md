@@ -32,6 +32,7 @@ Ask whether to set up meeting tracking. If yes:
 - Ask what to exclude (journal clubs, recurring lab chores, birthdays, deadlines, etc.).
 - Ask their home timezone; show times in that zone with a second zone for out-of-town events.
 - Ask whether to schedule a daily morning refresh (default 6am). If yes, create a scheduled task mirroring `refresh-meetings` in this repo, pointed at their `MEETINGS.md`, preserving the To Schedule column.
+- Ask whether they also want a daily morning brief (today's meetings + priority-tagged tasks). If yes, create a scheduled task mirroring `morning-brief` in this repo, pointed at their `MEETINGS.md` and `TASKS.md`. Order it a few minutes after `refresh-meetings` so the boards are current.
 
 ## Step 5 — Stamp out the files
 

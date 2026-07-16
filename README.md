@@ -16,6 +16,8 @@ This repo is a reusable kit for setting the system up for yourself. It contains 
   - `CLAUDE.md` — working memory (identity, people, terms, projects, preferences, conventions).
   - `memory/` — deeper knowledge base scaffold (`glossary.md`, `context/company.md`).
 - `refresh-meetings.md` — spec for the optional daily 6am calendar sync.
+- `morning-brief.md` — spec for the optional daily digest (today's meetings + priority tasks).
+- `LICENSE` — MIT.
 
 ## Prerequisites
 
