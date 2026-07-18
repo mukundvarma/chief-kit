@@ -10,11 +10,15 @@ Spec for the scheduled task that delivers a short daily brief from the chief sys
 ## What it does each run
 
 1. Read the user's `MEETINGS.md` and `TASKS.md`.
-2. Produce a short, scannable brief with two sections. No preamble or sign-off.
+2. Produce a short, scannable brief with three sections. No preamble or sign-off.
 
 ### Today's meetings
 
-From `MEETINGS.md`, list cards in the **Upcoming Meetings** and **Appointments** columns scheduled for today (use today's date). Show each with time and title. If none, say "No meetings today."
+From `MEETINGS.md`, list cards in the **Upcoming Meetings** and **Appointments** columns scheduled for today (use today's date). For each meeting show time, title, and invitees/attendees (if fewer than 10; omit the list if 10 or more). If none, say "No meetings today."
+
+### Tomorrow's meetings
+
+Show meetings for the next calendar day AND the next business day (if different). For example, on a Friday show both Saturday and Monday; on other weekdays just show the next day. Use the same format as today's section (time, title, invitees if < 10). Label each sub-section with the date (e.g. "Saturday Jul 18" / "Monday Jul 20"). If none, say "No meetings."
 
 ### Priority tasks
 
