@@ -1,6 +1,6 @@
 {
   "name": "chief-kit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Set up and maintain Chief, a plain-Markdown chief-of-staff system in Obsidian that Claude maintains for you.",
   "author": {
     "name": "Mukund Varma"
@@ -8,5 +8,11 @@
   "homepage": "https://github.com/mukundvarma/chief-kit",
   "repository": "https://github.com/mukundvarma/chief-kit",
   "license": "MIT",
-  "keywords": ["obsidian", "chief-of-staff", "tasks", "productivity", "markdown"]
+  "keywords": [
+    "obsidian",
+    "chief-of-staff",
+    "tasks",
+    "productivity",
+    "markdown"
+  ]
 }
